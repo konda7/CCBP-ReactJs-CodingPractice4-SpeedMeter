@@ -1,0 +1,75 @@
+/* Write your CSS here */
+
+.bg-container {
+  background-color: #07080c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.content-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  max-width: 900px;
+}
+
+.main-heading {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-size: 2em;
+  color: #ffffff;
+}
+
+.image {
+  width: 100%;
+}
+
+.speed-details {
+  font-family: 'Roboto';
+  font-size: em;
+  color: #ffffff;
+}
+
+.speed {
+  font-family: 'Roboto';
+  font-size: em;
+  color: #cbd5e1;
+}
+
+.limits {
+  font-family: 'Roboto';
+  font-size: 12px;
+  color: #cbd5e1;
+  margin-bottom: 30px;
+}
+
+.acceleration-btn {
+  border: 0;
+  background-color: #0b69ff;
+  font-family: 'Roboto';
+  font-size: 13px;
+  color: #ffffff;
+  border-radius: 5px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-right: 20px;
+}
+
+.apply-breaks-btn {
+  border: 1px solid #cbd5e1;
+  background-color: #07080c;
+  font-family: 'Roboto';
+  font-size: 13px;
+  color: #94a3b8;
+  border-radius: 5px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
